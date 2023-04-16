@@ -2,5 +2,8 @@
   command = "npm run build"
   publish = ".next"
 
+[dev]
+  port = 3001
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
